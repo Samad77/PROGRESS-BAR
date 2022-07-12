@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.container{
+    background-color: rgb(32, 32, 32);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.skills h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: arial black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.progressbar{
+    width: 500px;
+    height: 10px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.progressbar div{
+    
+    width: 0%;
+
+    height: 10px;
+}
+.progressbar span{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+     
+    
+    font-size: 10px;
+    float: right;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    margin-right: -20px;
+    margin-top: -10px;
+
+}
+.html{
+    background-color: rgb(218, 23, 88);
+    animation: html 1s linear forwards;
+}
+.css{
+    background-color: rgb(23, 199, 23);
+    animation: css 1s linear forwards;
+}
+.javascript{
+    background-color: yellow;
+    animation: javascript  1s linear forwards;
+}
+.python{
+    background-color: brown;
+    animation: python 1s linear forwards;
+}
+.react{
+    background-color: aqua;
+    animation: react 1s linear forwards;
+}
+.html span{
+    background-color: black;
+    border: 1.5px solid rgb(218, 23, 88);
+    color: white;
+    font-size: 10px;
+    font-family: arial black;
+}
+
+.css span{
+    background-color: black;
+    border: 1.5px solid rgb(23, 199, 23);
+    color: white;
+    font-size: 10px;
+    font-family: arial black;
+}
+
+.javascript span{
+    background-color: black;
+    border: 1.5px solid yellow;
+    color: white;
+    font-size: 10px;
+    font-family: arial black;
+}
+.python span{
+    background-color: black;
+    border: 1.5px solid brown;
+    color: white;
+    font-size: 10px;
+    font-family: arial black
+    ;
+}
+.react span{
+    background-color: black;
+    border: 1.5px solid aqua;
+    color: white;
+    font-size: 10px;
+    font-family: arial black 
+    ;
+}
+@keyframes html{
+    100%{
+        width: 87%;
+    }
+}
+@keyframes css{
+    100%{
+        width: 70%;
+    }
+}
+@keyframes javascript{
+    100%{
+        width: 60%;
+    }
+}
+@keyframes python{
+    100%{
+        width: 50%;
+    }
+}
+@keyframes react{
+    100%{
+        width: 37%;
+    }
+}
+@keyframes html{
+    100%{
+        width: 87%;
+    }
+}
